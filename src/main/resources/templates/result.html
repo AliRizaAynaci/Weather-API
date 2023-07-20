@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <title>Weather Result</title>
+</head>
+<body>
+<p>The weather is currently <span th:text="${weatherDescription}"></span></p>
+<h1>The temperature in <span th:text="${cityName}"></span> is <span th:text="${temp}"></span> degrees Celsius.</h1>
+<img th:src="${imageURL}" />
+</body>
+</html>
