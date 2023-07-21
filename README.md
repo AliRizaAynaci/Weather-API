@@ -12,7 +12,7 @@ Brings the weather information of the entered city via openweathermap api
 - Java 17
 - Spring Boot (Backend)
 - Thymeleaf (Frontend)
-- HTML, CSS
+- HTML
 - Restful API
 - Docker
 - Java HTTP Client (for handling HTTP requests)
